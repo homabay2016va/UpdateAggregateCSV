@@ -30,8 +30,6 @@ def HashFileFn(filename,size):
     hashfile=hasher.hexdigest()
     return hashfile
 
-filename="newdeaths.csv"
-formid='preloadv1'
 
 def UpdateData(filename,formid):
     try:
