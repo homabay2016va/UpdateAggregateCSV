@@ -6,6 +6,11 @@ Preloading data to ODK has advantages like; make data entry easier, shorten inte
 I have helped develop a python program to help in automatically updating the csv data file directly from the database so that the interviewer just
 downloads new form and the accompanying updated data.
 
+Supported implementation
+ODK Aggregate installed with PostgreSQL database.
+
+Future: Will include other databases
+
 Hope it helps!
 
 # Usage
