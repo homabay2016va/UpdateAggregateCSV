@@ -13,7 +13,9 @@ Hope it helps!
 after installing the package:
 
 from DataUpPackage.main import DataUp as du
+
 connection = du.connect("dbuser","dbpass","hostname/ip","dbport","dbname")
+
 du.UpdateData("filename.csv","formid","database_schema",connection)
 
 Dont hesitate to share your feedback at Qollinsochieng@gmail.com
