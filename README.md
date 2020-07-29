@@ -8,5 +8,13 @@ downloads new form and the accompanying updated data.
 
 Hope it helps!
 
+# Usage
+
+after installing the package:
+
+from DataUpPackage.main import DataUp as du
+connection = du.connect("dbuser","dbpass","hostname/ip","dbport","dbname")
+du.UpdateData("filename.csv","formid","database_schema",connection)
+
 Dont hesitate to share your feedback at Qollinsochieng@gmail.com
 Thank you!
